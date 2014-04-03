@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1400FCFA-8010-441C-9DB9-474D62592711</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PrayTimeDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA5F4887-6A12-4DE5-BDA4-F0DD2A09ED05</key>
+		<string>https://github.com/ibo2001/PrayTimes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>v1/objc/DemoApp-iOS7/PrayTimeDemo/PrayTimeDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA5F4887-6A12-4DE5-BDA4-F0DD2A09ED05</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ibo2001/PrayTimes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA5F4887-6A12-4DE5-BDA4-F0DD2A09ED05</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA5F4887-6A12-4DE5-BDA4-F0DD2A09ED05</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PrayTimes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

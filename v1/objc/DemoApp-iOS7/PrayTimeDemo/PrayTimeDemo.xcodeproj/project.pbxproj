@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B608D118EE089100A62FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608D018EE089100A62FF7 /* Foundation.framework */; };
+		10B608D318EE089100A62FF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608D218EE089100A62FF7 /* CoreGraphics.framework */; };
+		10B608D518EE089100A62FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608D418EE089100A62FF7 /* UIKit.framework */; };
+		10B608DB18EE089100A62FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10B608D918EE089100A62FF7 /* InfoPlist.strings */; };
+		10B608DD18EE089100A62FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B608DC18EE089100A62FF7 /* main.m */; };
+		10B608E118EE089100A62FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B608E018EE089100A62FF7 /* AppDelegate.m */; };
+		10B608E418EE089100A62FF7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B608E218EE089100A62FF7 /* Main_iPhone.storyboard */; };
+		10B608E718EE089100A62FF7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B608E518EE089100A62FF7 /* Main_iPad.storyboard */; };
+		10B608EA18EE089100A62FF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B608E918EE089100A62FF7 /* ViewController.m */; };
+		10B608EC18EE089100A62FF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B608EB18EE089100A62FF7 /* Images.xcassets */; };
+		10B608F318EE089100A62FF7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608F218EE089100A62FF7 /* XCTest.framework */; };
+		10B608F418EE089100A62FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608D018EE089100A62FF7 /* Foundation.framework */; };
+		10B608F518EE089100A62FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B608D418EE089100A62FF7 /* UIKit.framework */; };
+		10B608FD18EE089100A62FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10B608FB18EE089100A62FF7 /* InfoPlist.strings */; };
+		10B608FF18EE089200A62FF7 /* PrayTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B608FE18EE089100A62FF7 /* PrayTimeDemoTests.m */; };
+		10B6090B18EE096F00A62FF7 /* PrayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B6090A18EE096F00A62FF7 /* PrayTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B608F618EE089100A62FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10B608C518EE089100A62FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B608CC18EE089100A62FF7;
+			remoteInfo = PrayTimeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10B608CD18EE089100A62FF7 /* PrayTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B608D018EE089100A62FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10B608D218EE089100A62FF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10B608D418EE089100A62FF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10B608D818EE089100A62FF7 /* PrayTimeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayTimeDemo-Info.plist"; sourceTree = "<group>"; };
+		10B608DA18EE089100A62FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10B608DC18EE089100A62FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10B608DE18EE089100A62FF7 /* PrayTimeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrayTimeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		10B608DF18EE089100A62FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10B608E018EE089100A62FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10B608E318EE089100A62FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		10B608E618EE089100A62FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		10B608E818EE089100A62FF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10B608E918EE089100A62FF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10B608EB18EE089100A62FF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10B608F118EE089100A62FF7 /* PrayTimeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayTimeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B608F218EE089100A62FF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10B608FA18EE089100A62FF7 /* PrayTimeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrayTimeDemoTests-Info.plist"; sourceTree = "<group>"; };
+		10B608FC18EE089100A62FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10B608FE18EE089100A62FF7 /* PrayTimeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrayTimeDemoTests.m; sourceTree = "<group>"; };
+		10B6090918EE096F00A62FF7 /* PrayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayTime.h; sourceTree = "<group>"; };
+		10B6090A18EE096F00A62FF7 /* PrayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayTime.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B608CA18EE089100A62FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B608D318EE089100A62FF7 /* CoreGraphics.framework in Frameworks */,
+				10B608D518EE089100A62FF7 /* UIKit.framework in Frameworks */,
+				10B608D118EE089100A62FF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B608EE18EE089100A62FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B608F318EE089100A62FF7 /* XCTest.framework in Frameworks */,
+				10B608F518EE089100A62FF7 /* UIKit.framework in Frameworks */,
+				10B608F418EE089100A62FF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B608C418EE089100A62FF7 = {
+			isa = PBXGroup;
+			children = (
+				10B6090818EE096F00A62FF7 /* PrayTimeClasses */,
+				10B608D618EE089100A62FF7 /* PrayTimeDemo */,
+				10B608F818EE089100A62FF7 /* PrayTimeDemoTests */,
+				10B608CF18EE089100A62FF7 /* Frameworks */,
+				10B608CE18EE089100A62FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10B608CE18EE089100A62FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B608CD18EE089100A62FF7 /* PrayTimeDemo.app */,
+				10B608F118EE089100A62FF7 /* PrayTimeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B608CF18EE089100A62FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B608D018EE089100A62FF7 /* Foundation.framework */,
+				10B608D218EE089100A62FF7 /* CoreGraphics.framework */,
+				10B608D418EE089100A62FF7 /* UIKit.framework */,
+				10B608F218EE089100A62FF7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10B608D618EE089100A62FF7 /* PrayTimeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				10B608DF18EE089100A62FF7 /* AppDelegate.h */,
+				10B608E018EE089100A62FF7 /* AppDelegate.m */,
+				10B608E218EE089100A62FF7 /* Main_iPhone.storyboard */,
+				10B608E518EE089100A62FF7 /* Main_iPad.storyboard */,
+				10B608E818EE089100A62FF7 /* ViewController.h */,
+				10B608E918EE089100A62FF7 /* ViewController.m */,
+				10B608EB18EE089100A62FF7 /* Images.xcassets */,
+				10B608D718EE089100A62FF7 /* Supporting Files */,
+			);
+			path = PrayTimeDemo;
+			sourceTree = "<group>";
+		};
+		10B608D718EE089100A62FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10B608D818EE089100A62FF7 /* PrayTimeDemo-Info.plist */,
+				10B608D918EE089100A62FF7 /* InfoPlist.strings */,
+				10B608DC18EE089100A62FF7 /* main.m */,
+				10B608DE18EE089100A62FF7 /* PrayTimeDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B608F818EE089100A62FF7 /* PrayTimeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				10B608FE18EE089100A62FF7 /* PrayTimeDemoTests.m */,
+				10B608F918EE089100A62FF7 /* Supporting Files */,
+			);
+			path = PrayTimeDemoTests;
+			sourceTree = "<group>";
+		};
+		10B608F918EE089100A62FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10B608FA18EE089100A62FF7 /* PrayTimeDemoTests-Info.plist */,
+				10B608FB18EE089100A62FF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B6090818EE096F00A62FF7 /* PrayTimeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				10B6090918EE096F00A62FF7 /* PrayTime.h */,
+				10B6090A18EE096F00A62FF7 /* PrayTime.m */,
+			);
+			name = PrayTimeClasses;
+			path = PrayTimeDemo/PrayTimeClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B608CC18EE089100A62FF7 /* PrayTimeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B6090218EE089200A62FF7 /* Build configuration list for PBXNativeTarget "PrayTimeDemo" */;
+			buildPhases = (
+				10B608C918EE089100A62FF7 /* Sources */,
+				10B608CA18EE089100A62FF7 /* Frameworks */,
+				10B608CB18EE089100A62FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayTimeDemo;
+			productName = PrayTimeDemo;
+			productReference = 10B608CD18EE089100A62FF7 /* PrayTimeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10B608F018EE089100A62FF7 /* PrayTimeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B6090518EE089200A62FF7 /* Build configuration list for PBXNativeTarget "PrayTimeDemoTests" */;
+			buildPhases = (
+				10B608ED18EE089100A62FF7 /* Sources */,
+				10B608EE18EE089100A62FF7 /* Frameworks */,
+				10B608EF18EE089100A62FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B608F718EE089100A62FF7 /* PBXTargetDependency */,
+			);
+			name = PrayTimeDemoTests;
+			productName = PrayTimeDemoTests;
+			productReference = 10B608F118EE089100A62FF7 /* PrayTimeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B608C518EE089100A62FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ibrahim Qraiqe";
+				TargetAttributes = {
+					10B608F018EE089100A62FF7 = {
+						TestTargetID = 10B608CC18EE089100A62FF7;
+					};
+				};
+			};
+			buildConfigurationList = 10B608C818EE089100A62FF7 /* Build configuration list for PBXProject "PrayTimeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B608C418EE089100A62FF7;
+			productRefGroup = 10B608CE18EE089100A62FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B608CC18EE089100A62FF7 /* PrayTimeDemo */,
+				10B608F018EE089100A62FF7 /* PrayTimeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B608CB18EE089100A62FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B608E718EE089100A62FF7 /* Main_iPad.storyboard in Resources */,
+				10B608EC18EE089100A62FF7 /* Images.xcassets in Resources */,
+				10B608E418EE089100A62FF7 /* Main_iPhone.storyboard in Resources */,
+				10B608DB18EE089100A62FF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B608EF18EE089100A62FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B608FD18EE089100A62FF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B608C918EE089100A62FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B6090B18EE096F00A62FF7 /* PrayTime.m in Sources */,
+				10B608EA18EE089100A62FF7 /* ViewController.m in Sources */,
+				10B608E118EE089100A62FF7 /* AppDelegate.m in Sources */,
+				10B608DD18EE089100A62FF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B608ED18EE089100A62FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B608FF18EE089200A62FF7 /* PrayTimeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B608F718EE089100A62FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B608CC18EE089100A62FF7 /* PrayTimeDemo */;
+			targetProxy = 10B608F618EE089100A62FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10B608D918EE089100A62FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B608DA18EE089100A62FF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10B608E218EE089100A62FF7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B608E318EE089100A62FF7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		10B608E518EE089100A62FF7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B608E618EE089100A62FF7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		10B608FB18EE089100A62FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B608FC18EE089100A62FF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B6090018EE089200A62FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B6090118EE089200A62FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B6090318EE089200A62FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayTimeDemo/PrayTimeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PrayTimeDemo/PrayTimeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10B6090418EE089200A62FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayTimeDemo/PrayTimeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PrayTimeDemo/PrayTimeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10B6090618EE089200A62FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrayTimeDemo.app/PrayTimeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayTimeDemo/PrayTimeDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PrayTimeDemoTests/PrayTimeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		10B6090718EE089200A62FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrayTimeDemo.app/PrayTimeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrayTimeDemo/PrayTimeDemo-Prefix.pch";
+				INFOPLIST_FILE = "PrayTimeDemoTests/PrayTimeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B608C818EE089100A62FF7 /* Build configuration list for PBXProject "PrayTimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B6090018EE089200A62FF7 /* Debug */,
+				10B6090118EE089200A62FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B6090218EE089200A62FF7 /* Build configuration list for PBXNativeTarget "PrayTimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B6090318EE089200A62FF7 /* Debug */,
+				10B6090418EE089200A62FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10B6090518EE089200A62FF7 /* Build configuration list for PBXNativeTarget "PrayTimeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B6090618EE089200A62FF7 /* Debug */,
+				10B6090718EE089200A62FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B608C518EE089100A62FF7 /* Project object */;
+}
